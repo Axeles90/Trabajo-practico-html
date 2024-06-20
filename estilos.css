@@ -1,0 +1,48 @@
+#pie{
+    height: 500px;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-style: italic;
+}
+h4{
+    text-decoration: underline;
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+#tablabasica{
+    border:double grey 3px;
+    border-collapse: collapse;
+    margin: 10px;
+}
+#tablabasica td,#tablabasica th{
+    border:double grey 3px;
+    box-shadow: 1px 1px  3px grey;
+}
+#tablacompleja{
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+#tablacompleja tr,#tablacompleja th,#tablacompleja td{
+    border:double grey 3px;
+    box-shadow: 1px 1px  3px grey;
+}
+#anidartablas{
+    border-collapse: collapse;
+    box-shadow: 1px 1px  3px grey;
+    margin-top: 50px;
+}
+#anidartablas th{
+    border: solid grey 3px;
+}
+
+

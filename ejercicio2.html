@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ejercicio2" content="Pagina de ejercicio 2">
+    <title>Trabajo practico ejercicio 2</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <a href="index.html">Volver al ejercicio 1</a><br><br><br>
+
+    <!--Ejercicio 2 tabla basica-->
+
+    <table id="tablabasica">
+        <caption>Tabla basica</caption>
+        <tr><th colspan="4">Encabezado</th></tr>
+        <tr><td rowspan="4">A</td></tr>
+        <tr><td>B</td></tr>
+        <tr><td>C</td></tr>
+        <tr><td>D</td></tr>
+        <tr><td>E</td><td>F</td></tr>
+    </table>
+    
+
+    <!--Ejercicio 2 tabla compleja-->
+
+    <table id="tablacompleja">
+        <caption>Tabla avanzada</caption>
+        <thead>
+            <th>Año1</th>
+            <th>Año2</th>
+            <th>Año3</th>
+            <th>Año4</th>
+        </thead>
+        <tfoot>
+            <td colspan="4">Total: 1500</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>25</td><td>50</td><td>75</td><td>25</td>
+            </tr>
+            <tr>
+                <td>100</td><td>50</td><td>200</td><td>25</td>
+            </tr>
+            <tr>
+                <td>150</td><td>200</td><td>500</td><td>100</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--Ejercicio 2 parte B-->
+
+    <table id="anidartablas">
+        <caption>Anidar tablas</caption>
+        <tr>
+            <th id="tabla1">Celda tabla principal (padre)</th>
+            <th id="tabla2">
+                <table >
+                    <tr><th>Tabla anidada, Celda (1,1)</th><th>Tabla anidada, Celda (1,2)</th></tr>
+                    <tr><th>Tabla anidada, Celda (2,1)</th><th>Tabla anidada, Celda (2,2)</th></tr>
+                </table>
+            </th>
+        </tr>
+    </table>
+
+</body>
+</html>
