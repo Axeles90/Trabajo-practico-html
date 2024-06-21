@@ -67,42 +67,54 @@
     <form action="mailto:pablopolliniyepes@gmail.com" method="post">
         <legend>Introduzca sus datos</legend>
         <br><br>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" tabindex="1"><br><br>
-        <label for="apellidos">Apellidos</label>
-        <input type="text" name="apellidos" id="apellidos" tabindex="2"><br><br>
-        <label for="direccion">Direccion</label>
-        <input type="text" name="direccion" id="direccion" tabindex="3"><br><br>
-        <label for="clave">Contraseña</label>
-        <input type="password" name="clave" id="clave" tabindex="4"><br><br>
-        <br><br>
+        <fieldset>
+            <legend>Datos del usuario</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" tabindex="1"><br><br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" tabindex="2"><br><br>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="direccion" id="direccion" tabindex="3"><br><br>
+            
+            <br>
     
-        <legend>Seleccione Sexo</legend><br>
-        <label for="hombre">Hombre</label>
-        <input type="radio" id="" name="sexo">
-        <label for="mujer">Mujer</label>
-        <input type="radio" id="" name="sexo"><br><br>
-    
-        <caption>Estado civil</caption>
+            <legend>Seleccione Sexo</legend><br>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="" name="sexo">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="" name="sexo"><br><br>
+            
+            <caption>Estado civil</caption>
             <select size="1">
                 <option value="" selected="select">-Seleccione un Estado-</option>
                 <option value="soltero">Soltero</option>
                 <option value="casado">Casado</option>
                 <option value="viudo">Viudo</option>
             </select>
-        <br><br>
-        
-        <p>Seleccione en que esta interesado</p>
-        <label for="">Programacion Web</label>
-        <input type="checkbox" name="programacion web" id="">
-        <label for="">Ofimatica</label>
-        <input type="checkbox" name="ofimatica" id="">
-        <label for="">Diseño Grafico</label>
-        <input type="checkbox" name="diseño grafico" id="">
-        <br><br>
-
-        <Label>Observaciones</Label>
-        <textarea name="observaciones" id="">Escriba aqui sus observaciones...</textarea>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Usuario</legend>
+            <label for="nick">Nick</label>
+            <input type="text" name="nick" id="nick" tabindex="5"><br><br>
+            <label for="clave">Contraseña</label>
+            <input type="password" name="clave" id="clave" tabindex="6"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Interesado en</legend>
+            <label for="">Programacion Web</label>
+            <input type="checkbox" name="programacion web" id="">
+            <label for="">Ofimatica</label>
+            <input type="checkbox" name="ofimatica" id="">
+            <label for="">Diseño Grafico</label>
+            <input type="checkbox" name="diseño grafico" id="">
+            </fieldset>
+            <br><br>
+        <fieldset>
+            <legend>Observaciones Adicionales</legend>
+            <Label>Observaciones</Label>
+            <textarea name="observaciones" id="">Escriba aqui sus observaciones...</textarea>
+        </fieldset>
         <br><br>
 
         <input type="reset" value="Borrar">
